@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="Profile"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="NB:Profile image will be added soon"
+        />
+
+    <TextView
+        android:id="@+id/ProfileFullNameTextViewId"
+        android:layout_width="300dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        android:text="AMIR HAMZA"
+        />
+    <TextView
+        android:id="@+id/ProfileAddressTextViewId"
+        android:layout_width="300dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/ProfileEmailTextViewId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:id="@+id/ProfilePhoneTextViewId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Phone: "
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Preferred Locations:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/ProfileFirstPLTextViewId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="1. Dhaka"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/ProfileSecondPLTextViewId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="2. Sylhet"
+        android:textSize="18sp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textColor="#080A13"
+        android:textSize="16sp"
+        android:onClick="UpdateProfileButton"
+        android:background="#009688"
+        />
+
+
+
+</LinearLayout>
