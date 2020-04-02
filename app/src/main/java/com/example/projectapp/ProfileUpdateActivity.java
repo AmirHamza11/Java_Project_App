@@ -84,7 +84,7 @@ public class ProfileUpdateActivity extends AppCompatActivity {
             @Override
             public void onSuccess(Void aVoid) {
                 Toast.makeText(getApplicationContext(),"Update Successful",Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finish();
             }
         }).addOnFailureListener(new OnFailureListener() {
